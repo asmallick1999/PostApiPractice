@@ -22,6 +22,7 @@ const app = express();
 app.use(cors())
 app.use(bodyParser.json())
 app.use('/details', detailsRoute)
+app.use('/details/all', detailsRoute)
 
 
 
